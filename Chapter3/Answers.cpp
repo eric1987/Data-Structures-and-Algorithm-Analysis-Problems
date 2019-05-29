@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "Base.h"
-
 #include <cstdio>
 
 //3.1
@@ -29,13 +29,26 @@ void PrintLots(List l, List p)
         {
             print_tmp = print_tmp->next;
         }
-        printf("The %d number of List l is: %d.\n", tmp->element, print_tmp->element);
-
+		if (print_tmp != NULL)
+		{
+			printf("The %d number of List l is: %d.\n", tmp->element, print_tmp->element);
+		}
         tmp = tmp->next;
     }
 }
 
 //3.3
+//通过只调整指针（而不是数据）来交换两个相邻的元素
+//单链表、双链表
+void ChangeElement(List l)
+{
+
+}
+
+void ChangeElement()
+{
+
+}
 
 int main()
 {
