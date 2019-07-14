@@ -310,7 +310,7 @@ void Test3_5()
 //如果这两个多项式分别有M项和N项，那么你的程序的时间复杂度是多少？
 
 //采用类似3.5合并的方式；时间复杂度为O(M+N)
-void PolynomialSum()
+void PolynomialSum(List l1, List l2)
 {
 
 }
